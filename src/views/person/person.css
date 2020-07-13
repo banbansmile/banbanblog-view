@@ -1,0 +1,101 @@
+
+.box {
+    width: 940px;
+    margin: 18px auto 0 auto;
+}
+
+.event_year {
+    width: 60px;
+    border-bottom: 2px solid #DDD;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+.event_year li {
+    height: 40px;
+    line-height: 40px;
+    background: #FFF;
+    font-size: 18px;
+    color: #828282;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.event_year li label{
+    cursor: pointer;
+}
+
+.event_year li.current {
+   
+    background: #db6d4c url(../../img/jian.png) 60px 0 no-repeat;
+    color: #FFF;
+    text-align: left;
+    padding-left: 9px;
+}
+
+.event_list {
+    width: 850px;
+    float: right;
+    background: url(../../img/dian3.png) 139px 0 repeat-y;
+    margin: 10px 0 20px 0;
+    padding: 0;
+}
+
+.event_list h3 {
+    margin: 0 0 10px 132px;
+    font-size: 24px;
+    font-family: Georgia;
+    color: #db6d4c;
+    padding-left: 25px;
+    background: url(../../img/jian.png) 0 -45px no-repeat;
+    height: 38px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.event_list div{
+    margin: 0;
+    padding: 0;
+}
+
+
+.event_list li {
+    background: url(../../img/jian.png) 136px -80px no-repeat;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.event_list li span {
+    width: 127px;
+    text-align: right;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.event_list li p {
+    width: 680px;
+    margin-left: 24px;
+    display: inline-block;
+    padding-left: 10px;
+    background: url(../../img/jian.png) -21px 0 no-repeat;
+    line-height: 25px;
+    _float: left;
+}
+
+
+.event_list li p span {
+    width: 650px;
+    text-align: left;
+    border-bottom: 2px solid #DDD;
+    padding: 10px 15px;
+    background: #FFF;
+    margin: 0;
+}

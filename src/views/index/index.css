@@ -1,0 +1,286 @@
+
+article {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+
+.banner {
+    height: 280px;
+    width: 670px;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    width:500px;
+    height: 280px;
+    background: #364d79;
+    overflow: hidden;
+  }
+.ant-carousel .slick-slide img{
+    width: 100%;
+    height: 280px;
+}
+  
+.ant-carousel .slick-dots li button{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background:#fff;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+ }
+
+ .ant-carousel .slick-dots li.slick-active button{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background:#db6d4c;
+}
+
+.ant-carousel .slick-dots-bottom {
+    bottom: 25px;
+}
+
+ 
+
+.photo-slide{
+    width: 500px;
+    height: 280px;
+}
+
+.luara-top{
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slide-text {
+    width: 170px;
+    background: #fff;
+    height: 280px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.text01{
+    margin: 0px auto;
+    margin-bottom: 4px;
+    border: 1px solid #FFCC00;
+    background-color: #FFFFF7;
+}
+
+.slide-text section {
+    padding: 20px;
+    height: 136px;
+}
+
+.slide-text section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .5s;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.slide-text h3 a:hover{
+    color: rgb(0, 102, 102);
+}
+
+.slide-text section p{
+    color: #b3b3b3;
+    line-height: 18px;
+    word-break: break-all;
+}
+
+.text02 {
+    margin: 0px auto;
+    margin-bottom: 4px;
+    border: 1px solid #CCEFF5;
+    background-color: #FAFCFD;
+}
+
+.topnews {
+    margin: 20px 0;
+}
+
+.topnews h2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #333;
+    border-bottom: #db6d4c 4px solid;
+}
+
+
+.topnews h2 a:hover{
+    color: rgb(0, 102, 102);
+}
+
+.topnews h2 span {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.topnews h2 span a {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.blogs{
+    padding: 30px 0;
+    /* height: 200px; */
+    position: relative;
+    border-bottom: #BFAB86 1px solid;
+    overflow: hidden;
+}
+
+.blogs figure {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.blogs h3 {
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .5s;
+    margin-bottom: 10px;
+}
+
+.blogs ul {
+    float: right;
+    line-height: 22px;
+    width: 72%;
+    color: #777;
+}
+
+
+.autor {
+    overflow: hidden;
+    clear: both;
+    margin: 10px 0;
+    display: inline-block;
+    color: #999;
+    width: 100%;
+}
+
+
+
+.autor span {
+    margin: 0 10px 0 0;
+    padding-left: 20px;
+}
+
+
+.tit01 h3 {
+    line-height: 40px;
+    color: #38485A;
+    font-size: 18px;
+    border-bottom: 1px solid #E6E6E6;
+    height: 40px;
+}
+
+.gzwm ul {
+    width: 100%;
+    margin: 30px 0;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+
+.gzwm li {
+    width: 52px;
+    margin: 0 18px 0 5px;
+    float: left;
+}
+
+.gzwm .xlwb {
+    background: url(./img/xlwb.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+.gzwm .xlwb:hover {
+    background: url(./img/xlwb_.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+.gzwm .txwb {
+    background: url(./img/txwb.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+.gzwm .txwb:hover {
+    background: url(./img/txwb_.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+
+.gzwm .wx {
+    background: url(./img/email.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+.gzwm .wx:hover {
+    background: url(./img/email_.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+.gzwm .feedback {
+    background: url(./img/feedback.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+.gzwm .feedback:hover {
+    background: url(./img/feedback_.jpg) no-repeat scroll 0% 0% transparent;
+}
+
+.gzwm li a {
+    color: #747F8C;
+    width: 52px;
+    text-align: center;
+    padding-top: 60px;
+    float: left;
+}
+
+.smile_rank {
+    margin: 10px 0;
+    padding: 0
+}
+
+
+.smile_rank li {
+    height: 25px;
+    line-height: 25px;
+    clear: both;
+    overflow: hidden;
+    padding-left: 15px;
+    background: url(./img/li.jpg) no-repeat left center;
+}
+
+.links {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+
+.links h3 {
+    line-height: 40px;
+    color: #38485A;
+    font-size: 18px;
+    border-bottom: 1px solid #E6E6E6;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.links ul {
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    border: #e9e9e9 1px solid;
+}
+
+
+
+

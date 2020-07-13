@@ -1,0 +1,346 @@
+.l_box {
+    width: 670px;
+}
+
+.r_box {
+    width: 300px;
+}
+
+
+.l_box h2 {
+    font-size    : 16px;
+    font-weight  : bold;
+    line-height  : 36px;
+    color        : #333;
+    border-bottom: #db6d4c 4px solid;
+    text-align   : left;
+    margin-top   : 15px;
+}
+
+.f_l {
+    float: left;
+}
+
+.ariticleDetail .news_title {
+    font-size  : 24px;
+    font-weight: 400;
+    color      : #38485A;
+    text-align : left;
+}
+
+.ariticleDetail .news_author {
+    width      : 100%;
+    color      : #999999;
+    line-height: 18px;
+    text-align : left;
+    padding-top: 10px;
+}
+
+.ariticleDetail .news_author span {
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.ariticleDetail .news_author .au01 {
+    background: url(../../img/author2.png) no-repeat left center;
+}
+
+.ariticleDetail .news_author .au02 {
+    background: url(../../img/date.png) no-repeat left center;
+}
+
+
+.ariticleDetail .news_content {
+    line-height: 24px;
+    font-size  : 14px;
+    text-align: left;
+}
+
+.ariticleDetail .copyright_author {
+    background   : #f3f3f3;
+    border       : #e9e9e9 1px solid;
+    margin-bottom: 20px;
+    color        : #a0a0a0;
+    padding      : 25px 20px;
+    text-align   : left;
+    margin-top   : 30px;
+    clear: both;
+}
+
+.ariticleDetail .copyright_author p,
+.ariticleDetail .nextpage p {
+    padding: 0;
+    margin : 0;
+}
+
+.ariticleDetail .nextpage {
+    line-height: 24px;
+    text-align : left;
+}
+
+.ariticleDetail .nextpage a {
+    color: #0196E3;
+}
+
+.ariticleDetail .commentItem {
+    margin-top   : 30px;
+    margin-bottom: 300px;
+}
+
+.news_content p {
+    line-height: 28px;
+    margin     : 10px 0
+}
+
+.news_content span {
+    background-color: transparent !important
+}
+
+.news_content pre {
+    padding      : 1em;
+    color        : #353535;
+    background   : hsla(0, 0%, 78%, .3);
+    border       : 1px solid #c4c4c4;
+    border-radius: 2px;
+    text-align   : left;
+    direction    : ltr;
+    tab-size     : 4;
+    white-space  : pre-wrap;
+    font-style   : normal;
+    min-width    : 200px;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.news_content pre code {
+    font-size  : 12px;
+    line-height: 12px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+
+:root {
+    --ck-color-code-block-label-background: #757575;
+    --ck-font-face:Helvetica,Arial,Tahoma,Verdana,Sans-Serif;
+    --ck-spacing-tiny:calc(var(--ck-spacing-unit)*0.3);
+    --ck-spacing-medium:calc(var(--ck-spacing-unit)*0.8);
+}
+
+
+.news_content pre code.language-plaintext:after {
+    content    : 'Plain Text';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-c:after {
+    content    : 'C';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-cs:after {
+    content    : 'C#';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-cpp:after {
+    content    : 'C++';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-css:after {
+    content    : 'CSS';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-diff:after {
+    content    : 'Diff';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+
+.news_content pre code.language-xml:after {
+    content    : 'HTML/XML';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+
+.news_content pre code.language-java:after {
+    content    : 'Java';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-javascript:after {
+    content    : 'JavaScript';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+
+.news_content pre code.language-php:after {
+    content    : 'PHP';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+
+
+.news_content pre code.language-python:after {
+    content    : 'Python';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-ruby:after {
+    content    : 'Ruby';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content pre code.language-typescript:after {
+    content    : 'TypeScript';
+    top        : -1px;
+    right      : 50px;
+    background : var(--ck-color-code-block-label-background);
+    font-size  : 10px;
+    font-family: var(--ck-font-face);
+    line-height: 16px;
+    padding    : var(--ck-spacing-tiny) var(--ck-spacing-medium);
+    color      : #fff;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.news_content figure{
+    position: relative;
+    margin: 1em auto;
+}
+
+.news_content figure.image-style-align-left{
+    float: left;
+}
+
+.news_content figure.image-style-align-right{
+    float: right;
+}
+
+.news_content figure.image-style-side{
+    float: right;
+}
+
+.news_content figure img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+

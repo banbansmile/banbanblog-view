@@ -1,0 +1,9 @@
+
+.logo{
+    min-width: 1000px;
+    height: 170px;
+    overflow: hidden;
+    clear: both;
+    background: #E8F0E8 url('../../../img/logo1.jpg') scroll no-repeat;
+    background-size: 100% 100%;
+}

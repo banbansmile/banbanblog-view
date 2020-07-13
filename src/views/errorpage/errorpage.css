@@ -1,0 +1,28 @@
+
+.errorPage{
+   
+    height: 100vh;
+    width:100%;
+    background: url(./404background.png) no-repeat bottom;
+    background-size: 100% auto;
+}
+
+.errorPage .errorContent h3{
+    margin-bottom: 8px;
+    font-size: 38px;
+    font-weight: 500;
+    color: #262626;
+    padding-top: 40vh;
+}
+
+
+.errorPage .errorContent p{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #8c8c8c;
+}
+
+.errorPage .errorContent p a{
+    color: #237804 !important;
+}

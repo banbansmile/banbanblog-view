@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+    background-color: #f4f4f4;
+    margin          : 0;
+    font-family     : Arial, "Helvetica Neue", Helvetica, "Microsoft YaHei UI", "Microsoft YaHei"
+}
+
+#bgc {
+    width     : 100%;
+    height    : 100%;
+    overflow  : hidden;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.mb-box {
+    width      : 500px;
+    height     : auto;
+    padding-top: 15px;
+    position   : absolute;
+    top        : 8%;
+    left       : 50%;
+    margin-left: -250px;
+    z-index    : 2;
+    overflow   : hidden;
+}
+
+.style11 {
+    margin       : 0 auto;
+    width        : 416px;
+    max-height   : 560px;
+    border-radius: 10px;
+    box-shadow   : 0px 0px 20px #999;
+    overflow     : hidden;
+}
+
+.style11 h1 {
+    margin       : 15px auto 0px;
+    padding      : 20px 0px 10px;
+    width        : 280px;
+    font-size    : 20px;
+    text-align   : center;
+    color        : #883a78;
+    white-space  : nowrap;
+    text-overflow: ellipsis;
+    overflow     : hidden;
+}
+
+.style11_text {
+    height     : auto;
+    min-height : 180px;
+    max-height : 300px;
+    padding    : 20px 40px;
+    text-indent: 2em;
+    line-height: 30px;
+    font-size  : 16px;
+    color      : #3b3b3c;
+    font-weight: bold;
+    overflow   : auto;
+}
+
+.style11_myname {
+    text-align : right;
+    padding    : 0px 40px 20px;
+    line-height: 30px;
+    color      : #883a78;
+}
+
+.mb-x {
+    width     : 500px;
+    height    : auto;
+    overflow  : hidden;
+    margin-top: 260px;
+}
+
+.love_time {
+    width     : 100%;
+    text-align: center;
+    font-size : 14px;
+    color     : #ccc;
+}
+
+.love_time span {
+    color: #ccc;
+}
+
+.musicbg {
+    width     : 500px;
+    text-align: center;
+    filter    : alpha(opacity=40);
+    opacity   : .4;
+}
+
+.musicbg:hover {
+    filter : alpha(opacity=90);
+    opacity: .9;
+}
+
+.banquan {
+    width      : 500px;
+    line-height: 50px;
+    text-align : center;
+    color      : #ccc;
+}
+
+.banquan a {
+    color          : #ccc;
+    text-decoration: none;
+}

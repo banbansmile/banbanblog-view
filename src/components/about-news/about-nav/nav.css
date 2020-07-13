@@ -1,0 +1,72 @@
+.mynav ul {
+    list-style: none;
+}
+.mynav ul li{
+    cursor: pointer;
+}
+
+
+.myself-nav nav {
+    height  : 154px;
+    overflow: hidden;
+    margin  : 20px 0;
+}
+
+.myself-nav nav ul {
+    list-style-type: none;
+    text-align     : center;
+    padding: 0
+}
+
+.myself-nav nav ul li {
+    float        : left;
+    width        : 90px;
+    line-height  : 74px;
+    height       : 74px;
+    margin-right : 2px;
+    margin-bottom: 2px;
+}
+
+.myself-nav nav ul li a {
+    display           : block;
+    color             : #000;
+    -webkit-transition: all 1s;
+    transition        : All 1s ease;
+    -moz-transition   : All 1s ease;
+    -o-transition     : All 1s ease;
+}
+
+.myself-nav nav ul li a:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform   : rotate(360deg);
+}
+
+.myself-nav nav ul li:nth-child(1) {
+    border          : 1px solid #FFDD99;
+    background-color: #FFF9ED;
+}
+
+.myself-nav nav ul li:nth-child(2) {
+    border          : 1px solid #D3D3D3;
+    background-color: #F7F7F7;
+}
+
+.myself-nav nav ul li:nth-child(3) {
+    border          : 1px solid #FFCC00;
+    background-color: #FFFFF7;
+}
+
+.myself-nav nav ul li:nth-child(4) {
+    border          : 1px solid #ADCD3C;
+    background-color: #F2FDDB;
+}
+
+.myself-nav nav ul li:nth-child(5) {
+    border          : 1px solid #F8B3D0;
+    background-color: #FFF5FA;
+}
+
+.myself-nav nav ul li:nth-child(6) {
+    border          : 1px solid #5C9CC0;
+    background-color: #F2FAFF;
+}

@@ -1,0 +1,72 @@
+.managerInfo{
+    width: 100%;
+    height: 100%;
+}
+
+.managerInfo .manager_left_right{
+   min-height: 100%;
+   width:1000px;
+   margin:0px auto;
+}
+
+.managerInfo .left{
+    width:300px;
+    min-height: 100%;
+    float: left;
+    user-select: none;
+}
+
+.managerInfo .right{
+    width:700px;
+    min-height: 100%;
+    float: left;
+}
+
+.addAriticle{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.wEditor{
+    width:100%;
+}
+
+.w-e-text-container{
+    /* height: 600px !important; */
+    z-index: 100 !important
+}
+
+
+.w-e-menu{
+    z-index: 101 !important;
+}
+
+.avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+  }
+
+.ariticleList img{
+  width: 200px;
+  height: 100px;
+}
+
+.mod{
+    margin-top:30px;
+}
+
+
+.myckeditor .ck-editor__main{
+    height: 500px;
+}
+
+.myckeditor .ck-content{
+    height: 500px;
+}
+
+
+
+.myckeditor .ck.ck-editor__editable pre{
+    overflow: hidden;
+}

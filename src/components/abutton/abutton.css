@@ -1,0 +1,36 @@
+
+.nav{
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+.nav a{
+    color: #FFF
+}
+
+.navcurrenta{
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+
+    background: #fffbf0;
+    border-top: 4px solid #f77825;
+}
+
+.nav:hover{
+    background: #fffbf0;
+    color: #000;
+    border-top: 4px solid #f77825;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #666;
+}
+
+a {
+    outline: none;
+}

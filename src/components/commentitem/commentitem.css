@@ -1,0 +1,281 @@
+
+
+.headerLogin{
+    width: 40px;
+    height: 40px;
+    border-radius: 42px;
+    border: 1px solid #4398ed;
+    position: absolute;
+    top: 22px;
+    left: 9px;
+    font-size: 14px;
+    color: #4398ed;
+    text-align: center;
+    line-height: 42px!important;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+    background: 0 0;
+    color: #e74851;
+    border-color: #e74851;
+    float: left; 
+    position: relative;
+}
+.inputTextArea{
+    border-color: #e74851;
+    width: 100%;
+    height: 100px;
+    border:#e74851 2px solid;
+    border-radius:5px
+}
+
+.inputTextArea textarea{
+    outline:none;
+    border: solid 0px;
+    resize:none;
+    
+}
+
+.textarea-fw{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y:auto;
+ 
+}
+
+button.btn{
+    background-image:url(../../img/post-btn.png);
+    width: 102px;
+    height: 30px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    outline: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+button.btn:hover{
+    background-image:url(../../img/post-btn-hover.png); 
+}
+
+.sendbutton{
+    width: 100%;
+    float: left;
+}
+
+.cmt-list-type {
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.cmt-list-type .type-lists li.active {
+    background-image: url(../../img/cmtlist-bg-active.png)
+}
+
+.cmt-list-type .type-lists{
+    margin-bottom:0px !important;
+    padding: 0;
+}
+
+.cmt-list-type .type-lists .type-list {
+    float: left;
+    width: 66px;
+    height: 29px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cmt-list-type .cmt-list-border {
+    position: relative;
+    bottom: 1px;
+    left: 66px;
+    height: 1px;
+    background-color: #e74851;
+}
+
+.clear-g:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+
+.cmt-list-type .cmt-list-number {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cmt-list-type {
+    line-height: 30px;
+}
+
+.comment-number{
+    color: #e74851;
+}
+
+.cmt-list-type .cmt-list-number .comment-number .cy-number {
+    font-size: 20px;
+    margin: 0 5px;
+    font-family: Impact;
+}
+
+.commentList{
+    width: 100%;
+    height: auto;
+}
+
+.cmt-list-title{
+    margin-top: 15px;
+}
+
+.cmt-list-title>.content{
+    height: 25px;
+    border-left: #e74851 3px solid;
+    text-align: left;
+}
+
+.cmt-list-title>.content>.c{
+    margin-left: 15px;
+}
+
+.cmt-list-title>.content>.c span{
+    float: left;
+    width: 100%;
+    height: 20px;
+    margin-right: 13px;
+    font-size: 18px;
+}
+
+.commmentitem{
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.commentimage{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.commentimage img{
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    float: left;
+}
+
+.commentright{
+    width: 90%;
+    height: 100%;
+    float: left;
+    
+}
+
+.commentright>.userInfo{
+    width:100%;
+    height: 30px;
+}
+
+.commentright>.userInfo>.username{
+    float: left;
+}
+
+.commentright>.userInfo>.commentdate{
+    float: right;
+}
+
+.commentright>.content p{
+    line-height: 22px;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.commmentitem .content{
+    height: 100px;
+}
+
+.commmentitem .likeanddisklike{
+    height: 20px;
+    float: right;
+}
+
+.likeanddisklike span{
+    margin-right: 30px;
+}
+
+.likeanddisklike .ding{
+    background-image: url('../../img/ding.png');
+    background-position: 0 0;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    overflow: hidden;
+    vertical-align: -4px;
+}
+
+.likeanddisklike .dingclick{
+    background-image: url('../../img/ding-active.png');
+    background-position: 0 0;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    overflow: hidden;
+    vertical-align: -4px;
+    color: #e74851;
+}
+
+.likeanddisklike .ding:hover{
+    background-image: url('../../img/ding-active.png');
+    background-position: 0 0;
+    color: #e74851;
+}
+
+.likeanddisklike .cai{
+    background-image: url('../../img/cai.png');
+    background-position: 0 0;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    overflow: hidden;
+    vertical-align: -4px;
+}
+
+.likeanddisklike .caiclick{
+    background-image: url('../../img/cai-active.png');
+    background-position: 0 0;
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    overflow: hidden;
+    vertical-align: -4px;
+}
+
+.likeanddisklike .cai:hover{
+    background-image: url('../../img/cai-active.png');
+    background-position: 0 0;
+}
+
+.inputTextArea textarea.ant-input{
+    border:none;
+    overflow: hidden !important;
+    height: 100% !important;
+    outline:none !important;
+    background:transparent; 
+    border-color:transparent;
+    font-size: 16px;
+}
+

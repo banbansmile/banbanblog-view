@@ -1,0 +1,121 @@
+
+
+.blog{
+    padding: 30px 0;
+    height: 200px;
+    position: relative;
+    border-bottom: #BFAB86 1px solid;
+    overflow: hidden;
+}
+
+.blog img{
+    width: 167.5px;
+    height: 137px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+.blog img:hover{
+    transform: scale(1.1);
+}
+
+.blog figure{
+    float: left;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.blog:hover{
+    background: white;
+}
+
+.blog ul{
+    float: right;
+    line-height: 22px;
+    height: 100%;
+    width: 70%;
+}
+
+.blog .blogContent{
+    overflow: hidden;
+    height: 85px;
+    text-align:left;
+    /*white-space: nowrap; */
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+.blog .blogstate{
+    height: 10px;
+    margin: 10px 0;
+}
+
+.blog a:hover{
+    color: #474645
+}
+
+ul h3{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.blogstate{
+    position: relative;
+}
+
+.blogstate span{
+    padding-left: 20px;
+    margin: 0 10px 0 0;
+}
+
+.f_l{
+    float: left;
+}
+
+.f_r{
+    float: right;
+}
+
+.aboutme{
+    background: url(../../img/mynewsbg.png) no-repeat center;
+    background-position: 0px 4px;
+}
+
+
+.dtime {
+    background: url(../../img/mynewsbg.png) no-repeat center;
+    background-position: 0px -45px;
+}
+
+
+
+.pingl {
+    background: url(../../img/mynewsbg.png) no-repeat center;
+    background-position: 0px -20px;
+}
+
+.viewnum {
+    background: url(../../img/mynewsbg.png) no-repeat center;
+    background-position: 0px -70px;
+}
+
+.addlikecount{
+    cursor: pointer;
+    color: #999999;
+    font-size: 12px;
+    background: url(../../img/list_icon.png) no-repeat -47px -293px;
+    padding-left: 20px;
+}
+
+.afteraddlikecount{
+    cursor: default;
+    background-position: -47px -324px;
+    color: rgb(64, 108, 169);
+    text-decoration: none;
+}

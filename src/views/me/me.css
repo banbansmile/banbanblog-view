@@ -1,0 +1,162 @@
+.userInfo {
+    min-height: 100%;
+    width     : 1000px;
+    margin    : 0px auto;
+}
+
+.userInfo>.meLeft {
+    width              : 300px;
+    min-height         : 100%;
+    float              : left;
+    -webkit-user-select: none;
+    -moz-user-select   : none;
+    user-select        : none;
+    margin-top         : 100px;
+    cursor: pointer;
+}
+
+.userInfo>.meRight {
+    width     : 700px;
+    min-height: 100%;
+    float     : left;
+    margin-top: 150px;
+}
+
+.userInfo>.meLeft ul {
+    padding           : 0;
+    border            : 0;
+    border-radius     : 0;
+    -webkit-box-shadow: none;
+    box-shadow        : none;
+    width             : 100%;
+}
+
+.userInfo>.meLeft ul li {
+    height             : 50px;
+    line-height        : 40px;
+    list-style-position: inside;
+    list-style-type    : disc;
+    font-size          : 14px;
+    list-style         : none;
+}
+
+.userInfo>.meLeft ul li:hover {
+    color: #777;
+}
+
+.login {
+    widows    : 100%;
+    min-height: 100%;
+}
+
+.login>.loginInfo {
+    width : 1000px;
+    margin: 30px auto 0px auto;
+}
+
+.meRight .showInfo {
+    margin-top: 0px;
+    position: relative;
+}
+
+
+.meRight .showInfo table {
+    width     : 100%;
+    color     : #666;
+    font-size : 14px;
+}
+
+.meRight .showInfo tr {
+    height : 50px;
+    padding: 10px;
+}
+
+
+.userInfo .meRight img{
+    height: 100px;
+    width: 100px;
+}
+
+.labelinput{
+    clear: both;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+
+.labelinput label{
+    float: left;
+    display: block;
+    padding: 9px 15px;
+    width: 80px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.inputDiv{
+    
+    margin-left: 110px;
+    min-height: 36px;
+
+}
+
+.subButton{
+    margin-top: 80px;
+}
+
+
+.meRight .inputForm{
+    height: 240px;
+}
+
+.inputForm .ant-input-lg {
+    height: 30px;
+}
+
+
+.meRight .inputForm .image table {
+    width     : 100%;
+    color     : #666;
+    font-size : 14px;
+    border-spacing:0px 10px;
+}
+
+
+.meRight .inputForm .image table img{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.image .showimg{
+    margin-left: 40%;
+    float: left;
+    padding-top: 10px;
+}
+
+.updateBtn .ant-btn-lg{
+    height: 30px;
+    width: 80px;
+}
+
+.forget .forgetPassword{
+    margin-top: 120px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.forget .forgetPassword .ant-input-lg {
+    height: 30px;
+}
+
+
+.subButton .ant-btn-lg{
+    height: 30px;
+    width: 100px;
+}
+
