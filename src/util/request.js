@@ -4,8 +4,7 @@ import 'nprogress/nprogress.css'
 
 
 let service = axios.create({
-    baseURL: 'http://www.banbansmile.com/',
-    //baseURL: 'http://127.0.0.1:8066',
+    baseURL: 'http://127.0.0.1:8066',
     timeout: 30000,
     headers: {
         'Access-Control-Allow-Origin': '*'
